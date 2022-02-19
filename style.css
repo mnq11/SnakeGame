@@ -1,0 +1,36 @@
+.game-box {
+    text-align:center;
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+
+}
+.game-info {
+    text-align:center;
+    font-family: arial, fantasy;
+    line-height:24px;
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+
+
+}
+.ul{
+    text-align:center;
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+
+}
+.h3{
+    text-align:center;
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+}
+.body{
+    height: 200px;
+    background-color: #cccccc;
+    background-image: radial-gradient(red, green, yellow);
+}
+.div{
+    height: 200px;
+    background-color: #cccccc;
+    background-image: radial-gradient(red, green, yellow);
+}
