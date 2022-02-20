@@ -2,35 +2,31 @@
     text-align:center;
     float: left;
     width: 60%; /* The width is 60%, by default */
+    background-color: #585891;
+    height: auto;
+    border:  5px ;
 
 }
 .game-info {
     text-align:center;
     font-family: arial, fantasy;
-    line-height:24px;
     float: left;
     width: 60%; /* The width is 60%, by default */
-
-
+    background-color: #bd8197;
+    height: auto;
+    border:  5px ;
 }
-.ul{
+.Top-score{
+    border:  2px blue;
+    width: 95%;
+}
+#canvas{
+    border: solid 2px #d50f0f;
+    width: 90%;
+}
+.container{
     text-align:center;
     float: left;
     width: 60%; /* The width is 60%, by default */
-
-}
-.h3{
-    text-align:center;
-    float: left;
-    width: 60%; /* The width is 60%, by default */
-}
-.body{
-    height: 200px;
-    background-color: #cccccc;
-    background-image: radial-gradient(red, green, yellow);
-}
-.div{
-    height: 200px;
-    background-color: #cccccc;
-    background-image: radial-gradient(red, green, yellow);
+    border:  2px ;
 }

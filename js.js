@@ -4,9 +4,10 @@ var x = 8;
 let array = []
 
 const CANVAS_BORDER_COLOUR = 'black';
-const CANVAS_BACKGROUND_COLOUR = "white";
+const CANVAS_BACKGROUND_COLOUR = "gray";
 const SNAKE_COLOUR = 'lightgreen';
 const SNAKE_BORDER_COLOUR = 'darkgreen';
+var lastKey;
 
 window.onload = function () {
     canvas = document.getElementById("canvas");
@@ -42,13 +43,13 @@ async function endGame(x) {
     clearInterval(gameControl);
     gameActive = false;
     document.getElementById("game-status").innerHTML = "<small>Game Over</small>";
-    document.getElementById("game-score").innerHTML = "<h1>Score: " + x + "      the higst Score :" +highScore+ "</h1>";
+    document.getElementById("game-score").innerHTML = "<h1>Score: " + x  + "</h1>";
     // this will add my list
     let list = document.getElementById("myList");
     // remove duplicates
     array = [...new Set(array)];
     //sorting the array
-    array.sort(function(a, b) {
+    array.sort(function (a, b) {
         return b - a;
     });
 
@@ -63,7 +64,6 @@ async function endGame(x) {
         li.innerText = item;
         list.appendChild(li);
     });
-
 
 
 }
@@ -155,8 +155,11 @@ function draw() {
 
 // input
 function keyDownEvent(e) {
+
     switch (e.keyCode) {
+
         case 37:
+
             nextX = -1;
             nextY = 0;
             break;
