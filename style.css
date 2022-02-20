@@ -5,6 +5,7 @@
     background-color: #585891;
     height: auto;
     border:  5px ;
+    background-image: url("pic/2.png");
 
 }
 .game-info {
@@ -15,18 +16,25 @@
     background-color: #bd8197;
     height: auto;
     border:  5px ;
+    background-image: url("pic/2.png");
+
 }
 .Top-score{
     border:  2px blue;
-    width: 95%;
+    width: 98%;
+
 }
 #canvas{
     border: solid 2px #d50f0f;
     width: 90%;
+
 }
 .container{
     text-align:center;
     float: left;
-    width: 60%; /* The width is 60%, by default */
+    width: 65%;
     border:  2px ;
+    background-image: url("pic/2.png");
+    height: 100%;
+
 }
